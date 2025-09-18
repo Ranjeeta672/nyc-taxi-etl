@@ -1,0 +1,34 @@
+@"
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+terraform.tfvars
+
+# Python cache
+__pycache__/
+"@ | Set-Content .gitignore
+
+@"
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform
+
+@"
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+terraform.tfvars
+
+# Data
+*.parquet
+nyctaxi/*.parquet
+
+# Python cache
+__pycache__/
+"@ | Set-Content .gitignore
